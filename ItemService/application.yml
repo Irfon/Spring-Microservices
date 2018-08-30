@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: Item-Service
+  data:
+    mongodb.host: localhost
+    mongodb.port: 27017
+    mongodb.database: items
+
+server:
+  port: 8092
+
+eureka:
+  client:
+    service-url.default-zone: http://localhost:8761/eureka

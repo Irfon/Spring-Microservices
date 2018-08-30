@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: Order-Service
+  jpa:
+     hibernate.ddl-auto: update
+     show-sql: true
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/mydb
+      username: root
+      password: admin
+
+server:
+  port: 8090
+  
+orderservice:
+   orderType: order-type
+
+logging:
+   level:
+     ROOT: 
+     org.springframework.web: INFO
+     org.hibernate: ERROR
+   file: /logs/orders/orderclient.log
+   
+eureka:
+  client:
+    service-url.default-zone: http://localhost:8761/eureka
