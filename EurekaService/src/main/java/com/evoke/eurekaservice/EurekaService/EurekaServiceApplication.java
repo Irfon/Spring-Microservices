@@ -10,6 +10,6 @@ public class EurekaServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EurekaServiceApplication.class, args);
-		//added new line in repo
+		//updated new line in repo
 	}
 }
