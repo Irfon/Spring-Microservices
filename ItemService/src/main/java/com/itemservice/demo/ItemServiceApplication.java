@@ -9,7 +9,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class ItemServiceApplication {
 
 	public static void main(String[] args) {
-	    System.out.println("Hello World to github new");
 		SpringApplication.run(ItemServiceApplication.class, args);
 	}
 }
