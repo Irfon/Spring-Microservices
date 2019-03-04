@@ -9,7 +9,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class ItemServiceApplication {
 
 	public static void main(String[] args) {
-	        System.out.println("Hello Worlds");
+	        System.out.println("Hello World");
 		SpringApplication.run(ItemServiceApplication.class, args);
 	}
 }
